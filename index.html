@@ -10,18 +10,37 @@
     <h1 id="title"> Fill in the following form</h1>
     <p id="description"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi error tempora, quis praesentium harum numquam voluptate et blanditiis optio nisi dolor fugit cum culpa saepe, magnam illo officia maiores repellendus consequatur suscipit exercitationem ratione vitae iste voluptates. Id vitae quasi, dignissimos esse asperiores consequuntur maxime repellendus ipsum dicta deserunt laborum!</p>
     <form action="" id="survey-form">
+
       <label for="" id="name-label"> Name</label>
-      <input type="text" id="name" placeholder="Enter your name">
+      <input type="text" id="name" placeholder="Enter your name"><br>
+
       <label for="" id="email-label"> Email</label>
-      <input type="email" id="email" placeholder="Enter your email">
+      <input type="email" id="email" placeholder="Enter your email"><br>
+
       <label for="" id="number-label">Age</label>
-      <input type="number" id="number" name="number" min="1" max="70" placeholder="Enter your Age">
+      <input type="number" id="number" name="number" min="1" max="70" placeholder="Enter your Age"><br>
+
+      <label for="" id="education-label">Education</label>
       <select name="" id="dropdown">
         <option value=""> select your degree </option>
         <option value=""> high school</option>
         <option value=""> university </option>
-      </select>
+      </select><br>
+
+      <label for="">Would you recommend microverse to other?</label><br>
+      <input type="radio"  name="recommend" value="yes"> Yes<br>
+      <input type="radio"  name="recommend" value="no"> No<br>
+      <input type="radio"  name="recommend" value="def"> Definitely <br>
+
+      <label for="">What would you like improved?</label><br>
+      <input type="checkbox" name="front" value="front"> Front-end projects<br>
+      <input type="checkbox" name="back" value="back"> Back-end projects<br>
+      <input type="checkbox" name="full" value="full" checked> Full-stack projects<br>
+
+      <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea><br>
+
       <input type="submit" id="submit">
+      
     </form>
     <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
 
